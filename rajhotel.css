@@ -1,0 +1,75 @@
+.navbar a{
+    text-decoration: none;
+    padding:12px;
+    color:black;
+    font-size: 25px;
+
+}
+.navbar a:hover{
+    color:#fff;
+    border-bottom: .1px solid blueviolet;
+    padding-bottom: 7px;
+    background-color: red;
+    
+}
+.anothernav{
+    text-align: right;
+    margin-top: -29px;
+
+}    
+.anothernav a{
+    text-decoration: none;
+    padding:12px;
+    color:black;
+    font-size: 25px;
+    
+}
+.anothernav a:hover{
+    color:#fff;
+    border-bottom: .1px solid blueviolet;
+    padding-bottom: 7px;
+    background-color: red;
+    
+}
+.fota{
+    margin-top:-575px;
+    margin-left: 40px;
+
+}
+form{
+    font-family: serif;
+}
+.navbar{
+    font-family: cursive;
+    font-size: large;
+}
+.anothernav{
+    font-family: cursive;
+    font-size: large;
+}
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info{
+    text-indent: 2cm;
+}
+.maphei{
+    margin-top: -550px;
+}
+.pic1{
+    margin-left: 718px;
+    margin-top: -553px;
+}
+.tumhari{
+    margin-left: 1120px;
+    margin-top: -305px;
+}
+.hamaripic{
+    margin-left: -7px;
+}
+a{
+    color:#fff;
+    border-bottom: .1px solid blueviolet;
+    padding-bottom: 7px;
+    background-color: red;
+}

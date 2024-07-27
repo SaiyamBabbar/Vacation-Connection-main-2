@@ -1,0 +1,200 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1549298385-f62e042575a8?auto=format&fit=crop&q=80&w=1856&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.form h3{
+    border-bottom: 2px solid blue;
+    width: 210px;
+    padding: 5px;
+}
+::placeholder{
+    color: white;
+}
+.input #input-group{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+}
+.input2 #input-group{
+    width: 195px;
+    margin: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+}
+.input3{
+    display: flex;
+    margin-left: 50px;
+}
+.input4 #input-group{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+}
+.input4 #input-group1{
+    width: 622px;
+    margin: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+}
+.input5 h2{
+    border-bottom: 2px solid brown;
+    width: 300px;
+    padding: 5px;
+}
+.input6 #input-group{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+}
+.input6 #input-group1{
+    width: 622px;
+    margin: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+}
+
+.submitbtn{
+    background-color: #000;
+    border: 2px solid blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* transition: all 0.5s ease-in-out; */
+}
+
+.submitbtn:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Customize the label (the checkbox-btn) */
+.checkbox-btn {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkbox-btn label {
+    cursor: pointer;
+    font-size: 14px;
+  }
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    border: 2.5px solid #ffffff;
+    transition: .2s linear;
+  }
+  .checkbox-btn input:checked ~ .checkmark {
+    background-color: transparent;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: 50%;
+    top: 40%;
+    width: 10px;
+    height: 14px;
+    border: 2px solid #0ea021;
+    filter: drop-shadow(0px 0px 10px #0ea021);
+    border-width: 0 2.5px 2.5px 0;
+    transition: .2s linear;
+    transform: translate(-50%, -50%) rotate(-90deg) scale(0.2);
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbox-btn input:checked ~ .checkmark:after {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    animation: pulse 1s ease-in;
+  }
+  
+  .checkbox-btn input:checked ~ .checkmark {
+    transform: rotate(45deg);
+    border: none;
+  }
+  
+  @keyframes pulse {
+    0%,
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(1.6);
+    }
+  }
+  
+  

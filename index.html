@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="projectm.css">
+	<link rel="shotcut icon" type="text/css" href="ScreenshotF.png">
+</head>
+<body>
+	<div id="preloader"></div> 
+ <section class="showcase">
+    <header>
+      <!-- <img src="./logo_png/logo-no-background.png" width="25%" alt=""> -->
+      <h2 style="color: white;">THE VACATION CONNECTION</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="./images/backg.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop To </h2> 
+      <h3>Explore The World</h3>
+      <p>The real voyage of discovery consists not in seeking new landscapes,but in having new eyes :)</p>
+      <a href="whatyouwant.html">GET STARTED</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Discounts</a></li>
+      <li><a href="contactus2.html">Contact Us</a></li>
+      <li><a href="Terms and conditions.html">Terms and Conditions</a></li>
+      <li><a href="Signin.html">Sign Up</a></li>
+    </ul>
+  </div>
+<script type="text/javascript">
+	var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+	 const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+</script>
+</body>
+</html>
